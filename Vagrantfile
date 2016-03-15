@@ -11,10 +11,10 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y apache2
   SHELL
 
-  # config.vm.synced_folder "html", "/var/www/html"
+  config.vm.synced_folder "./public_html/", "/var/www/html", :mount_options => ["dmode=777", "fmode=666"]
 
-  # config.vm.provider "virtualbox" do |vb|
-  #   vb.memory = "1024"
-  # end
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "1024"
+  end
 
 end
