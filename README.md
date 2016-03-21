@@ -6,5 +6,5 @@ The steps of the Vagrant file are in the branches
 - VirtualBox: [www.virtualbox.org](https://www.virtualbox.org/wiki/Downloads)
 
 Example of a useful box:
-- Scotchbox [https://box.scotch.io/](https://box.scotch.io/)
+- Scotchbox: [https://box.scotch.io/](https://box.scotch.io/)
 
