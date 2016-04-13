@@ -11,6 +11,6 @@ Example of a useful box:
 After installing both Vagrant and VirtualBox:
 - Choose a directory.
 - For Macs: Run terminal and type command 'vagrant box add [box name]' to add box
-  for this example: type command 'vagrant box add scotch/box'
+  e.g. example: type command 'vagrant box add scotch/box'
 - After the download is complete type command 'vagrant init [box name]' e.g. 'vagrant init scotch/box'
 - Type command 'vagrant up' and you are set.
